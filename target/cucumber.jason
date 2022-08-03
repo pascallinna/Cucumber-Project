@@ -1,0 +1,184 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 492841700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios page",
+            "match": {
+              "location": "BackgroundChangeSteps.user_is_on_the_techFios_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4246591300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundChangeSteps.before_run()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should be able to find the \"Set SkyBlue Background\" button exists",
+        "description": "",
+        "id": "background-change-validation;user-should-be-able-to-find-the-\"set-skyblue-background\"-button-exists",
+        "after": [
+          {
+            "result": {
+              "duration": 1460767900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundChangeSteps.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69514200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the SetSkyBlueBackground button",
+            "match": {
+              "location": "BackgroundChangeSteps.i_click_on_the_setskybluebackground_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229944100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BackgroundChangeSteps.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 287774100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios page",
+            "match": {
+              "location": "BackgroundChangeSteps.user_is_on_the_techFios_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2319096500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundChangeSteps.before_run()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should be able to find the \"Set White Background\" button exists",
+        "description": "",
+        "id": "background-change-validation;user-should-be-able-to-find-the-\"set-white-background\"-button-exists",
+        "after": [
+          {
+            "result": {
+              "duration": 1355887100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundChangeSteps.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55803700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the SetWhiteBackground button",
+            "match": {
+              "location": "BackgroundChangeSteps.i_click_on_the_setwhitebackground_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195012000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "BackgroundChangeSteps.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Background Change Validation",
+    "description": "",
+    "id": "background-change-validation",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/BackgroundChange.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundChangeColour"
+      }
+    ]
+  }
+]
